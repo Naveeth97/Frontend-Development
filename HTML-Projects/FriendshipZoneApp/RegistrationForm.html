@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <title>RegistrationForm</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <meta http-equiv = "content-security-policy" content = "default-src 'self' http://xyz.com">
+
+    </head>
+    <body>
+        <img src = "Friends.PNG" alt = "Gang of Friends">
+        <center><h1>Friendship Zone</h1></center>
+        <div>
+            <h3>Add your details to register</h3>
+            <form>
+                <table>
+                    <tr>
+                        <td><strong>Name: </strong> </td>
+                        <td><input type = "text" placeholder = "Enter your name" minlength = "3" required/></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email: </strong> </td>
+                        <td><input type = "email" placeholder = "Enter your email" pattern = "[a-zA-Z0-9@]" required/></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Age: </strong> </td>
+                        <td><input type = "number" placeholder="Enter your age" min = "18" step = "1" required/></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Birth Day: </strong> </td>
+                        <td><input type = "date" required</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gender: </strong> </td>
+                        <td><input type = "radio" name = "gender" value = "Male" />M &nbsp; <input type ="radio" name = "gender" value = "Female"/>F</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>About: </strong></td>
+                        <td><textarea rows = "4" colspan = "10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Phone: </strong> </td>
+                        <td><input type = "number" pattern = "[0-9]" required/></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Interested in: </strong></td>
+                        <td><input type = "radio" name = "relation" value = "Friendship"/>Friendship &nbsp; <input type = "radio" name = "relation" value = "Dating"/>Dating &nbsp; <strong>Attachment:</strong> <input type ="file"/></td>
+                    </tr>
+                    <tr><input name="language" value="English" hidden ></tr>
+                </table>
+            </form>
+        </div>
+        <span><a href = "RegistrationConfirmation.html" target="_self" rel = "noopener noreferrer"><button type = "submit">Register</button></a></span> <span><a href = "RegistrationConfirmationforAdmin.html" target= "_self" rel = "noopener noreferrer"><button type = "submit">Register as Admin</button></a></span>
+    </body>
+</html>
