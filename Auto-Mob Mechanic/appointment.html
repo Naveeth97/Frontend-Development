@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <title>Appointment | AutoMob-Mechanic</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv = "content-security-policy" content = "default-src 'self' http://xyz.com">
+    </head>
+    <body>
+        <a href = "Home.html" ><h3>AutoMob-Mechanic</h3></a>
+        <header>
+            <nav><a href = "Home.html">Home</a> | <a href = "services.html">Services</a> | <a href = "booking.html">Booking</a> | <a href = "mailto:2k21cse097@kiot.ac.in">contact&#x40;automob.co.in&#x2709;</a> | 999 999 9999&#x260F;</nav>
+        </header>
+        <hr>
+        <br>
+        <article>
+            <h1>Schedule Your Appointment</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Appointment Date:</td>
+                        <td><input type = "date" required/></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><textarea rows = "5" colspan = "30" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td><input type = "text" placeholder = "Mumbai, Pune.." required/></td>
+                    </tr>
+                    <tr>
+                        <td>State:</td>
+                        <td><input list = "state">
+                        <datalist id = "state" required>
+                            <option value = "Assam">
+                                <option value = "Bihar">
+                                    <option value = "Gujarat">
+                                        <option value = "Goa">
+                                            <option value = "TamilNadu">
+                        </datalist></td>
+                    </tr>
+                    <tr>
+                        <td>Send Notification: </td>
+                        <td><input type = "checkbox" name = "notification" value = "Email" required />Email   <input type = "checkbox" name = "notification" value = "SMS" required/>SMS</td>
+                    </tr>
+                </table>
+                <button type = "booking-sucess">Book</button>
+            </form>
+        </article>
+        <br>
+        <hr>
+        <aside><span>Copyright &copy; 2020 AutoMob-Mechanic.</span>
+        <span> All Rights Reserved.</span></aside>
+    </body>
+</html>
